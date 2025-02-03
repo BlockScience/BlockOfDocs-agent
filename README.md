@@ -31,28 +31,48 @@ A knowledge graph-based RAG (Retrieval-Augmented Generation) system with Slack i
 - Modular design for easy extension
 - Async processing for better performance
 
-```mermaid
-flowchart TD
-    subgraph Data Processing Flow
-        A[Document Sources] --> B[Document Loader]
-        B --> C[Text Chunking]
-        C --> D[Knowledge Extraction]
-        D --> E[Neo4j Graph Store]
-        D --> F[Text Index]
+````mermaid
+flowchart TB
+    subgraph Input Sources
+        MD[Markdown Files]
+        JSON[JSON Manifests]
+        TXT[Text Blocks]
+        SLACK[Slack Messages]
     end
 
-    subgraph User Interaction Flow
-        G[User in Slack] --> H[Mention Bot]
-        H --> I[Query Processing]
-        I --> J[Retrieval]
-        J --> K[Text Index Query]
-        J --> L[Graph Query]
-        K --> M[Context Assembly]
-        L --> M
-        M --> N[LLM Response]
-        N --> O[Slack Reply]
+    subgraph Document Processing
+        DL[DocumentLoader]
+        DT[DocumentTracker]
+        SP[SentenceSplitter]
     end
 
-    E -.-> L
-    F -.-> K
-```
+    subgraph Knowledge Graph Processing
+        KGE[GraphRAGExtractor]
+        GS[GraphRAGStore]
+        PGI[PropertyGraphIndex]
+    end
+
+    subgraph Query System
+        QE[GraphRAGQueryEngine]
+        LLM[OpenAI LLM]
+    end
+
+    subgraph Integration
+        SB[SlackBot]
+        NEO4J[(Neo4j Database)]
+    end
+
+    MD & JSON & TXT --> DL
+    DL --> |Track Changes| DT
+    DL --> |Split Documents| SP
+    SP --> |Extract Entities & Relations| KGE
+    KGE --> |Store Graph Data| GS
+    GS --> |Build Index| PGI
+    GS <--> NEO4J
+    PGI --> QE
+    QE <--> LLM
+    SLACK --> SB
+    SB --> |Query| QE
+    QE --> |Response| SB
+    ```
+````
