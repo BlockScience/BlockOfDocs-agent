@@ -1,0 +1,133 @@
+<BlockRequest>
+<BlockTitle>Research Proposal Narrative</BlockTitle>
+<BlockID>1ddaaeb2d006</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Research Proposal Narrative” is defined as follows:
+<Description>
+The “Research Proposal Narrative" Block provides a comprehensive yet focused description of a research or educational initiative proposing projects with similar requirements to a traditional National Science Foundation proposal narrative, enabling reviewers to thoroughly evaluate its merit and feasibility. It is a subvariant of the NSF - Proposal Narrative Block, and is unique in that it focuses only on the work being proposed, without consideration of audience or potential stakeholders. This Block requires principal investigators and subject matter experts to articulate their project's scientific, pedagogical, or engineering foundations, methodological approach, and anticipated impacts through a detailed narrative that demonstrates thorough planning rigor. By summarizing the basis and reason for the program alongside key aspects such as project approach, assessment methods, and broader impacts, the resulting document serves as a critical self-evaluation framework, ensuring that the team has answered key questions about the work. The typical 750-word minimum and 2000-word limit requires investigators to balance depth with conciseness, ensuring all essential components are adequately addressed while maintaining narrative coherence. This structured format helps maintain proposal quality and completeness, making the submission more compelling to reviewers while ensuring careful consideration of all elements necessary for successful project execution and meaningful impact.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions and Block Requests in the cKit (Context Kit) in the way you would like them addressed. The cKit provides the necessary context to produce the Document.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<ProbeBlockRequest><sequenceID>cKit-1dd40e27</sequenceID>
+<kit>cKit</kit>
+<question>What are the key claims, quotes, and examples associated with this work, and what references should be used to support each of them in the text?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3254</sequenceID>
+<kit>qKit</kit>
+<question>What is the relevant state of the art? What critical gaps or limitations in relevant subject matter areas does this proposed work address?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf387f</sequenceID>
+<kit>qKit</kit>
+<question>What alternative solutions already exist? Why are they inadequate? What changed?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3f94</sequenceID>
+<kit>qKit</kit>
+<question>What is the project's general approach, animating insight and/or unique methodology?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3d0d</sequenceID>
+<kit>qKit</kit>
+<question>What are the relevant assumptions or claims underlying the approach, idea, or recommendations?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3a67</sequenceID>
+<kit>qKit</kit>
+<question>Are there novel technical developments required to successfully implement the proposed approach? If so, what are they?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf386e</sequenceID>
+<kit>qKit</kit>
+<question>What are the risks? What challenges have to be overcome?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3809</sequenceID>
+<kit>qKit</kit>
+<question>Why is the project likely to succeed in spite of the current risks and challenges? </question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf30c3</sequenceID>
+<kit>qKit</kit>
+<question>What quantitative data (simulation, modelling, experimental) can be provided to support the proposed approach?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf386b</sequenceID>
+<kit>qKit</kit>
+<question>What perspective, expertise, or set of capabilities uniquely enables this proposed concept?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf373d</sequenceID>
+<kit>qKit</kit>
+<question>What work will be performed? What will be done? What should be expected to happen next?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf37f8</sequenceID>
+<kit>qKit</kit>
+<question>What metrics, milestones, or outcomes would indicate success? How will the program be evaluated? How will results be validated?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3f42</sequenceID>
+<kit>qKit</kit>
+<question>How does this work make necessary and meaningful contributions to advance understanding or capabilities in relevant research domains?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf328b</sequenceID>
+<kit>qKit</kit>
+<question>What are the implications of the research question, gap, or problem going unaddressed?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf3aa0</sequenceID>
+<kit>qKit</kit>
+<question>Why is this work important and timely? Why should it be pursued now?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf37b7</sequenceID>
+<kit>qKit</kit>
+<question>What are the broader implications of the work or idea?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-1ddf36ca</sequenceID>
+<kit>qKit</kit>
+<question>What would/should come or is coming next? If the work was successful, hypothesis was correct, or an event went as expected, what would come after?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>cKit-1dd40c71</sequenceID>
+<kit>cKit</kit>
+<question>How is the team and/or organization(s) uniquely qualified to perform this work?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+is informed by, consistent with, and does not contradict the information in the cKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>1729d26326db</styleRequirementID>
+<styleRequirement>Word Count Minimum: 750</styleRequirement>
+<styleRequirementID>98ac7fea5a20</styleRequirementID>
+<styleRequirement>Word Count Maximum: 2000</styleRequirement>
+<styleRequirementID>0ca19028fea0</styleRequirementID>
+<styleRequirement>Academic and Professional Tone</styleRequirement>
+<styleRequirementID>5a1c8e2046b7</styleRequirementID>
+<styleRequirement>No Hyperlinks/URLs</styleRequirement>
+<styleRequirementID>5781e7f9fe68</styleRequirementID>
+<styleRequirement>Narrative Text: The text should make a compelling case while maintaining a professional tone</styleRequirement>
+<styleRequirementID>3d28cb27a452</styleRequirementID>
+<styleRequirement>Document should use paragraph-format, only using bullet point lists sparingly and for special situations.</styleRequirement>
+<styleRequirementID>5cdae3756a76</styleRequirementID>
+<styleRequirement>Summary and Background focus: The document should focus on expressing the background, rationale, and basis for the program, and summarize the approach and broader impacts with the expectation that they will be addressed in other sections</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

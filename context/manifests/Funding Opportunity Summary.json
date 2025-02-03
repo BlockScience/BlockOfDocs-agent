@@ -1,0 +1,72 @@
+{
+  "block_id": "5837d27f9e83",
+  "block_title": "Funding Opportunity Summary",
+  "description": "A \"Funding Opportunity Summary\u201d Block is used to document and communicate the objectives, ontology, and interest areas of a funding opportunity, request for proposal, or proposal solicitation. This Block captures the key concepts, terminology, and domains of interest that define the scope of the funding opportunity. It provides a structured way to express what the funder aims to achieve, the specific language and definitions that should be used consistently throughout proposals, and the topical areas or fields that are relevant to the solicitation. The Block distills these core semantic elements into a clear format that helps all parties understand exactly what types of work the program is interested in supporting and ensures consistent interpretation of key terms and concepts across all proposal documentation.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-583f38ba",
+          "text": "What organisation is offering the funding? Who funds them?"
+        },
+        {
+          "id": "qKit-583f3158",
+          "text": "Where is the funding/program announcement? Provide the hyperlink it if possible."
+        },
+        {
+          "id": "qKit-583f374e",
+          "text": "How much funding is available from the organisation?"
+        },
+        {
+          "id": "qKit-583f3d8f",
+          "text": "When was this program announced? When is the proposal due? Is there a proposer\u2019s day?"
+        },
+        {
+          "id": "qKit-583f3787",
+          "text": "How much effort and preparation is required to respond to this funding opportunity?"
+        },
+        {
+          "id": "qKit-583f3932",
+          "text": "Given the documentation offered and the current situation, what are the proposal requirements? Is there a formatting guide offered? If so, provide the hyperlink."
+        },
+        {
+          "id": "qKit-583f3653",
+          "text": "What is the deadline for this funding opportunity, if any?"
+        },
+        {
+          "id": "qKit-583f3607",
+          "text": "What does the funding organisation describe as \u201cof interest\u201d? What are the relevant requirements?"
+        },
+        {
+          "id": "qKit-583f380c",
+          "text": "Is this funding opportunity novel for this organisation, or is it a part of an ongoing effort? If so, what relevant work have they funded in the past? Are there examples of past projects?"
+        },
+        {
+          "id": "qKit-583f3cf6",
+          "text": "What does the funding organisation describe as explicitly \u201cnot of interest\u201d? Where are the boundaries on the topic space?"
+        },
+        {
+          "id": "qKit-583f3343",
+          "text": "Who will be or likely be reviewing proposals and/or contracts? Is there anything about their individual or collective background that is relevant?"
+        },
+        {
+          "id": "qKit-583f3a90",
+          "text": "Is there anyone who is not an evaluator, reviewer, or program officer that also appears to be involved, representing, back-channeling, or who otherwise appears to have more information about the program than one might expect?"
+        },
+        {
+          "id": "qKit-583f3dde",
+          "text": "Given the issuing organisation, their expressed topic space, the evaluators and reviewers, and any other relevant knowledge - what is it that they may find \u201cof interest\u201d, but did not or cannot express?"
+        },
+        {
+          "id": "qKit-583f3b65",
+          "text": "Given the hidden and expressed topic space, third parties, and evaluators and reviewers, what documents, events, persons, memes, references, or organisations should be cited or referenced?"
+        },
+        {
+          "id": "qKit-583f3da6",
+          "text": "Are there any other pertinent details to contextualise the funding organisation and/or proposal opportunity?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

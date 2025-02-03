@@ -1,0 +1,134 @@
+<BlockRequest>
+<BlockTitle>Block Definition</BlockTitle>
+<BlockID>3c32f592ac7b</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Block Definition” is defined as follows:
+<Description>
+The Block Definition Block facilitates the creation of clear, standardized definitions for Blocks within the BlocksOfDocs framework by guiding producers through key considerations about utility, audience, and implementation. This Block serves engineers and developers working with BlocksOfDocs by providing a structured approach to documenting new Blocks, resulting in consistent and informative definitions that help future producers understand and effectively use these Blocks. The Block requires producers to be familiar with the BlocksOfDocs framework and have a clear understanding of their block's intended utility and audience, but the actual production process is straightforward and friction-free. Producers can expect a simple implementation process, needing only to synthesize their knowledge of the block's purpose and requirements into a concise, informative paragraph.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+<ontology>
+<namespace>Test</namespace>
+<definition>This is test ontology. Remove if seen.</definition>
+</ontology><ontology>
+<namespace>test1</namespace>
+<definition>t</definition>
+</ontology>
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions or Block Requests in the aKit (Augmentation Kit) where appropriate or necessary, especially if they are already available. the aKit informs and augments the resulting Document.
+Address questions and Block Requests in the cKit (Context Kit) in the way you would like them addressed. The cKit provides the necessary context to produce the Document.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<blockRequest>
+<sequenceID>aKit-3c37558f</sequenceID>
+<kit>aKit</kit>
+<blockTitle>BlockRequest</blockTItle>
+<blockRefID>58f2718a9191</blockRefID>
+<documentID></documentID>
+</blockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f31ce</sequenceID>
+<kit>qKit</kit>
+<question>What tasks or usecases does the requested Block facilitate or address?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3fef</sequenceID>
+<kit>qKit</kit>
+<question>How does this Block facilitate or address these usecases? What does it achieve? What is its purpose?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>aKit-3c375735</sequenceID>
+<kit>aKit</kit>
+<question>Are there any Blocks that frequently use this Block? For example, as a subcomponent or as supporting context? If so, what are they?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3a7a</sequenceID>
+<kit>qKit</kit>
+<question>Are there existing templates or patterns of document that were used to inform this Block? If so, what are the key influences on or origin of the Block? What is it based on?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>aKit-3c37512a</sequenceID>
+<kit>aKit</kit>
+<question>Are there variants of this Block? If so what are they? How is this Block unique?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3902</sequenceID>
+<kit>qKit</kit>
+<question>What is the name of this Block?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f31d1</sequenceID>
+<kit>qKit</kit>
+<question>Who would be the potential consumers of this Block? i.e. Who would receive resulting documents?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3125</sequenceID>
+<kit>qKit</kit>
+<question>Who would be the potential producers of this Block? i.e. Who would be building documents using the Block?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3039</sequenceID>
+<kit>qKit</kit>
+<question>What are the significant or unique elements of this Block? What are its significant or unique information or subcomponent requirements?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f36cc</sequenceID>
+<kit>qKit</kit>
+<question>Are there any significant or unique style constraints on this Block? If so, what are its significant or unique style, voice, structural, or presentation requirements? </question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>cKit-3c340f51</sequenceID>
+<kit>cKit</kit>
+<question>On a scale of very simple (1) to extraordinarily complex (5), what should a producer of this Block expect in terms of sourcing information, preparing, and planning to produce or source the document? Answer with an integer on a scale of 1-5, followed by a short explanation of that choice. </question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3db8</sequenceID>
+<kit>qKit</kit>
+<question>What should a producer of this Block expect in terms of sourcing information, preparing, and planning for production?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>cKit-3c340e52</sequenceID>
+<kit>cKit</kit>
+<question>On a scale of very simple (1) to extraordinarily complex (5), what should a producer of this Block expect in terms of producing the document? Answer with an integer on a scale of 1-5, followed by a short explanation of that choice.</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f369a</sequenceID>
+<kit>qKit</kit>
+<question>What should a producer of this Block expect in terms of producing the document?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-3c3f3adf</sequenceID>
+<kit>qKit</kit>
+<question>Are there any frictions or potential difficulties that a Producer of this Block should expect to encounter? If so, what are they?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>aKit-3c375ae5</sequenceID>
+<kit>aKit</kit>
+<question>As someone familiar with the usecase(s) of interest, is there information that might be required in the sourcing or creation of the Document specified by the block, that should explicitly not be present in the resulting Document? Is there any information that must be sanitized or redacted from the Document before it reaches its consumer or audience?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+is informed by, consistent with, and does not contradict the information in the aKit.
+is informed by, consistent with, and does not contradict the information in the cKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>b9eccf7af267</styleRequirementID>
+<styleRequirement>Single Paragraph</styleRequirement>
+<styleRequirementID>6cea7bc263bd</styleRequirementID>
+<styleRequirement>First sentence should reference the name of the Block and its usage and purpose</styleRequirement>
+<styleRequirementID>dbe0b3c8e532</styleRequirementID>
+<styleRequirement>Word Count Maximum: 200</styleRequirement>
+<styleRequirementID>6e5714c0cb0b</styleRequirementID>
+<styleRequirement>Word Count Minimum: 100</styleRequirement>
+<styleRequirementID>ef9732a08bdf</styleRequirementID>
+<styleRequirement>Plain Text Only</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

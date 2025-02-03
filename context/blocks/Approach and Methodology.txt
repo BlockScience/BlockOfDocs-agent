@@ -1,0 +1,104 @@
+<BlockRequest>
+<BlockTitle>Approach and Methodology</BlockTitle>
+<BlockID>77dc245269d5</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Approach and Methodology” is defined as follows:
+<Description>
+The "Approach and Methodology" Block provides a detailed examination of a research program's technical strategy and implementation plan, enabling reviewers to thoroughly evaluate its feasibility and risk profile. This Block requires researchers and project teams to articulate their methods, technical requirements, and risk mitigation approaches in a structured format that demonstrates careful consideration of execution challenges. By addressing specific questions about technical dependencies, resource needs, potential failure modes, and contingency plans, the Block serves as a comprehensive assessment framework, helping to surface projects that may require additional planning or risk management. The strict technical focus challenges producers to think critically about their approach's practicality and limitations, while ensuring all key implementation concerns are addressed. This systematic examination helps maintain rigor and accountability, making the proposed methodology transparent to reviewers while forcing thorough consideration of what capabilities and safeguards are necessary for successful execution of the research program.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+   Address questions and Block Requests in the cKit (Context Kit) in the way you would like them addressed. The cKit provides the necessary context to produce the Document.
+   Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+   <ProbeBlockRequest><sequenceID>qKit-77df3f94</sequenceID>
+   <kit>qKit</kit>
+   <question>What is the project's general approach, animating insight and/or unique methodology?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df3d0d</sequenceID>
+   <kit>qKit</kit>
+   <question>What are the relevant assumptions or claims underlying the approach, idea, or recommendations?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df387f</sequenceID>
+   <kit>qKit</kit>
+   <question>What alternative solutions already exist? Why are they inadequate? What changed?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>cKit-77d4006b</sequenceID>
+   <kit>cKit</kit>
+   <question>What feedback was given by colleagues and relevant experts during initial planning of the approach? What needs special attention during drafting? For example, are there biases, potential misunderstandings, or special details or nuances that need to be considered?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df386b</sequenceID>
+   <kit>qKit</kit>
+   <question>What perspective, expertise, or set of capabilities uniquely enables this proposed concept?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df3a67</sequenceID>
+   <kit>qKit</kit>
+   <question>Are there novel technical developments required to successfully implement the proposed approach? If so, what are they?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df3ba8</sequenceID>
+   <kit>qKit</kit>
+   <question>What unique advantage is offered?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df3255</sequenceID>
+   <kit>qKit</kit>
+   <question>How does this approach differ from similar ones or from its use in other domains?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df3813</sequenceID>
+   <kit>qKit</kit>
+   <question>Are there potentially confounding variables, sources of bias, or similar challenges that may impact results or assessment? If so, how will they be controlled or managed?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df37b1</sequenceID>
+   <kit>qKit</kit>
+   <question>What quality control measures, validation steps, or contingencies are a part of the approach?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df386e</sequenceID>
+   <kit>qKit</kit>
+   <question>What are the risks? What challenges have to be overcome?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df3809</sequenceID>
+   <kit>qKit</kit>
+   <question>Why is the project likely to succeed in spite of the current risks and challenges? </question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df38e5</sequenceID>
+   <kit>qKit</kit>
+   <question>Are there past examples, case studies, or data that support the case for potential impacts of this work or support expectations regarding approach?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df37f8</sequenceID>
+   <kit>qKit</kit>
+   <question>What metrics, milestones, or outcomes would indicate success? How will the program be evaluated? How will results be validated?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+   <ProbeBlockRequest><sequenceID>qKit-77df37ef</sequenceID>
+   <kit>qKit</kit>
+   <question>What is the timeline of the work? What are/were the key milestones and deliverables?</question>
+   <answer></answer>
+   </ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+   correctly implements the ontology defined in the oKit.
+   is informed by, consistent with, and does not contradict the information in the cKit.
+   would allow a reader or consumer of the document to address all questions and block requests in the qKit
+   Meets all of the style requirements listed below.
+   <StyleRequirements>
+   </StyleRequirements>
+   <document></document>
+   </BlockRequest>

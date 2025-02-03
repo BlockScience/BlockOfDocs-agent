@@ -1,0 +1,76 @@
+{
+  "block_id": "1ddaaeb2d006",
+  "block_title": "Research Proposal Narrative",
+  "description": "The \u201cResearch Proposal Narrative\" Block provides a comprehensive yet focused description of a research or educational initiative proposing projects with similar requirements to a traditional National Science Foundation proposal narrative, enabling reviewers to thoroughly evaluate its merit and feasibility. It is a subvariant of the NSF - Proposal Narrative Block, and is unique in that it focuses only on the work being proposed, without consideration of audience or potential stakeholders. This Block requires principal investigators and subject matter experts to articulate their project's scientific, pedagogical, or engineering foundations, methodological approach, and anticipated impacts through a detailed narrative that demonstrates thorough planning rigor. By summarizing the basis and reason for the program alongside key aspects such as project approach, assessment methods, and broader impacts, the resulting document serves as a critical self-evaluation framework, ensuring that the team has answered key questions about the work. The typical 750-word minimum and 2000-word limit requires investigators to balance depth with conciseness, ensuring all essential components are adequately addressed while maintaining narrative coherence. This structured format helps maintain proposal quality and completeness, making the submission more compelling to reviewers while ensuring careful consideration of all elements necessary for successful project execution and meaningful impact.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-1ddf3254",
+          "text": "What is the relevant state of the art? What critical gaps or limitations in relevant subject matter areas does this proposed work address?"
+        },
+        {
+          "id": "qKit-1ddf387f",
+          "text": "What alternative solutions already exist? Why are they inadequate? What changed?"
+        },
+        {
+          "id": "qKit-1ddf3f94",
+          "text": "What is the project's general approach, animating insight and/or unique methodology?"
+        },
+        {
+          "id": "qKit-1ddf3d0d",
+          "text": "What are the relevant assumptions or claims underlying the approach, idea, or recommendations?"
+        },
+        {
+          "id": "qKit-1ddf3a67",
+          "text": "Are there novel technical developments required to successfully implement the proposed approach? If so, what are they?"
+        },
+        {
+          "id": "qKit-1ddf386e",
+          "text": "What are the risks? What challenges have to be overcome?"
+        },
+        {
+          "id": "qKit-1ddf3809",
+          "text": "Why is the project likely to succeed in spite of the current risks and challenges?"
+        },
+        {
+          "id": "qKit-1ddf30c3",
+          "text": "What quantitative data (simulation, modelling, experimental) can be provided to support the proposed approach?"
+        },
+        {
+          "id": "qKit-1ddf386b",
+          "text": "What perspective, expertise, or set of capabilities uniquely enables this proposed concept?"
+        },
+        {
+          "id": "qKit-1ddf373d",
+          "text": "What work will be performed? What will be done? What should be expected to happen next?"
+        },
+        {
+          "id": "qKit-1ddf37f8",
+          "text": "What metrics, milestones, or outcomes would indicate success? How will the program be evaluated? How will results be validated?"
+        },
+        {
+          "id": "qKit-1ddf3f42",
+          "text": "How does this work make necessary and meaningful contributions to advance understanding or capabilities in relevant research domains?"
+        },
+        {
+          "id": "qKit-1ddf328b",
+          "text": "What are the implications of the research question, gap, or problem going unaddressed?"
+        },
+        {
+          "id": "qKit-1ddf3aa0",
+          "text": "Why is this work important and timely? Why should it be pursued now?"
+        },
+        {
+          "id": "qKit-1ddf37b7",
+          "text": "What are the broader implications of the work or idea?"
+        },
+        {
+          "id": "qKit-1ddf36ca",
+          "text": "What would/should come or is coming next? If the work was successful, hypothesis was correct, or an event went as expected, what would come after?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

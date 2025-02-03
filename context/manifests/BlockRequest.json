@@ -1,0 +1,28 @@
+{
+  "block_id": "58f2718a9191",
+  "block_title": "BlockRequest",
+  "description": "A BlockRequest Block is used to request the creation of a new Block within the BlocksOfDocs framework through a simple form-based process. This Block serves as a standardized way for users to initiate the development of new Blocks by providing answers to a set of predefined questions about the Block's purpose, audience, and requirements. The production process is extremely straightforward, requiring only that producers fill out and submit a form containing questions from the Block's Kit, with no additional styling or formatting needed. While some questions about existing variant or parent Blocks may require basic knowledge of the current BlocksOfDocs library, these can be skipped if uncertain and left for the admin team to address. BlockRequest's simplicity and flexibility make it an efficient tool for expanding the framework's capabilities through new Block creation requests.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-58ff31ce",
+          "text": "What tasks or usecases does the requested Block facilitate or address?"
+        },
+        {
+          "id": "qKit-58ff3fef",
+          "text": "How does this Block facilitate or address these usecases? What does it achieve? What is its purpose?"
+        },
+        {
+          "id": "qKit-58ff3125",
+          "text": "Who would be the potential producers of this Block? i.e. Who would be building documents using the Block?"
+        },
+        {
+          "id": "qKit-58ff31d1",
+          "text": "Who would be the potential consumers of this Block? i.e. Who would receive resulting documents?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

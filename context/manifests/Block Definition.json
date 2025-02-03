@@ -1,0 +1,56 @@
+{
+  "block_id": "3c32f592ac7b",
+  "block_title": "Block Definition",
+  "description": "The Block Definition Block facilitates the creation of clear, standardized definitions for Blocks within the BlocksOfDocs framework by guiding producers through key considerations about utility, audience, and implementation. This Block serves engineers and developers working with BlocksOfDocs by providing a structured approach to documenting new Blocks, resulting in consistent and informative definitions that help future producers understand and effectively use these Blocks. The Block requires producers to be familiar with the BlocksOfDocs framework and have a clear understanding of their block's intended utility and audience, but the actual production process is straightforward and friction-free. Producers can expect a simple implementation process, needing only to synthesize their knowledge of the block's purpose and requirements into a concise, informative paragraph.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-3c3f31ce",
+          "text": "What tasks or usecases does the requested Block facilitate or address?"
+        },
+        {
+          "id": "qKit-3c3f3fef",
+          "text": "How does this Block facilitate or address these usecases? What does it achieve? What is its purpose?"
+        },
+        {
+          "id": "qKit-3c3f3a7a",
+          "text": "Are there existing templates or patterns of document that were used to inform this Block? If so, what are the key influences on or origin of the Block? What is it based on?"
+        },
+        {
+          "id": "qKit-3c3f3902",
+          "text": "What is the name of this Block?"
+        },
+        {
+          "id": "qKit-3c3f31d1",
+          "text": "Who would be the potential consumers of this Block? i.e. Who would receive resulting documents?"
+        },
+        {
+          "id": "qKit-3c3f3125",
+          "text": "Who would be the potential producers of this Block? i.e. Who would be building documents using the Block?"
+        },
+        {
+          "id": "qKit-3c3f3039",
+          "text": "What are the significant or unique elements of this Block? What are its significant or unique information or subcomponent requirements?"
+        },
+        {
+          "id": "qKit-3c3f36cc",
+          "text": "Are there any significant or unique style constraints on this Block? If so, what are its significant or unique style, voice, structural, or presentation requirements?"
+        },
+        {
+          "id": "qKit-3c3f3db8",
+          "text": "What should a producer of this Block expect in terms of sourcing information, preparing, and planning for production?"
+        },
+        {
+          "id": "qKit-3c3f369a",
+          "text": "What should a producer of this Block expect in terms of producing the document?"
+        },
+        {
+          "id": "qKit-3c3f3adf",
+          "text": "Are there any frictions or potential difficulties that a Producer of this Block should expect to encounter? If so, what are they?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

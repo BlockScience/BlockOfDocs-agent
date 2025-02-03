@@ -1,0 +1,106 @@
+<BlockRequest>
+<BlockTitle>Funding Opportunity Summary</BlockTitle>
+<BlockID>5837d27f9e83</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Funding Opportunity Summary” is defined as follows:
+<Description>
+A "Funding Opportunity Summary” Block is used to document and communicate the objectives, ontology, and interest areas of a funding opportunity, request for proposal, or proposal solicitation. This Block captures the key concepts, terminology, and domains of interest that define the scope of the funding opportunity. It provides a structured way to express what the funder aims to achieve, the specific language and definitions that should be used consistently throughout proposals, and the topical areas or fields that are relevant to the solicitation. The Block distills these core semantic elements into a clear format that helps all parties understand exactly what types of work the program is interested in supporting and ensures consistent interpretation of key terms and concepts across all proposal documentation.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<ProbeBlockRequest><sequenceID>qKit-583f38ba</sequenceID>
+<kit>qKit</kit>
+<question>What organisation is offering the funding? Who funds them?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3158</sequenceID>
+<kit>qKit</kit>
+<question>Where is the funding/program announcement? Provide the hyperlink it if possible.</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f374e</sequenceID>
+<kit>qKit</kit>
+<question>How much funding is available from the organisation?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3d8f</sequenceID>
+<kit>qKit</kit>
+<question>When was this program announced? When is the proposal due? Is there a proposer’s day?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3787</sequenceID>
+<kit>qKit</kit>
+<question>How much effort and preparation is required to respond to this funding opportunity?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3932</sequenceID>
+<kit>qKit</kit>
+<question>Given the documentation offered and the current situation, what are the proposal requirements? Is there a formatting guide offered? If so, provide the hyperlink.</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3653</sequenceID>
+<kit>qKit</kit>
+<question>What is the deadline for this funding opportunity, if any?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3607</sequenceID>
+<kit>qKit</kit>
+<question>What does the funding organisation describe as “of interest”? What are the relevant requirements?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f380c</sequenceID>
+<kit>qKit</kit>
+<question>Is this funding opportunity novel for this organisation, or is it a part of an ongoing effort? If so, what relevant work have they funded in the past? Are there examples of past projects?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3cf6</sequenceID>
+<kit>qKit</kit>
+<question>What does the funding organisation describe as explicitly “not of interest”? Where are the boundaries on the topic space?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3343</sequenceID>
+<kit>qKit</kit>
+<question>Who will be or likely be reviewing proposals and/or contracts? Is there anything about their individual or collective background that is relevant?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3a90</sequenceID>
+<kit>qKit</kit>
+<question>Is there anyone who is not an evaluator, reviewer, or program officer that also appears to be involved, representing, back-channeling, or who otherwise appears to have more information about the program than one might expect?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3dde</sequenceID>
+<kit>qKit</kit>
+<question>Given the issuing organisation, their expressed topic space, the evaluators and reviewers, and any other relevant knowledge - what is it that they may find “of interest”, but did not or cannot express?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3b65</sequenceID>
+<kit>qKit</kit>
+<question>Given the hidden and expressed topic space, third parties, and evaluators and reviewers, what documents, events, persons, memes, references, or organisations should be cited or referenced?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-583f3da6</sequenceID>
+<kit>qKit</kit>
+<question>Are there any other pertinent details to contextualise the funding organisation and/or proposal opportunity?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>f2a7e4a7d575</styleRequirementID>
+<styleRequirement>Provide following information (if known) at the top of the document: Funding organisation, Funding amount, Proposal Deadline, Link to funding announcement, Link to proposal formatting guide.</styleRequirement>
+<styleRequirementID>43b1b1f02f82</styleRequirementID>
+<styleRequirement>The primary text of the document should be a list of subsections addressing the following in order: Nature of the funding opportunity (the subject matter that is of interest), The Funder (background on the funder), Preparation (the timeline, and preparation requirements), and Additional Details (if there are any other notes that should be mentioned). Each subsection should contain bullet- and sub bullet-points addressing specific needed information.</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

@@ -1,0 +1,72 @@
+{
+  "block_id": "d636852815fe",
+  "block_title": "Impact and Implications",
+  "description": "The \"Impact and Implications\" Block provides a thorough analysis of the potential effects and significance of a research (or similar) initiative, enabling stakeholders to comprehensively understand the project's anticipated influence across multiple domains and the principal investigators to ensure clarity in program design. It is a specialized block focused on examining both direct outcomes and indirect consequences of the proposed work, considering immediate results as well as long-term ramifications and first-, second-, and third-order beneficiaries. This Block requires investigators to carefully evaluate their project's potential impacts through a detailed assessment that demonstrates deep consideration of various influence pathways. By examining primary effects alongside secondary and tertiary implications, such as workforce development, technological advancement, or societal benefits, the resulting document serves as a critical impact assessment framework, ensuring that the team has thoroughly considered the full scope of their work's influence. Authors must balance breadth with specificity, ensuring both immediate and far-reaching implications are adequately explored while maintaining analytical rigor. This structured format helps articulate the full value proposition of the work, making the potential benefits clear to stakeholders while ensuring careful consideration of both intended and unintended consequences of the proposed activities.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-d63f31fd",
+          "text": "What problem, research question, opportunity, gap, or challenge does this project address? What does it intend to provide or offer?"
+        },
+        {
+          "id": "qKit-d63f386b",
+          "text": "What perspective, expertise, or set of capabilities uniquely enables this proposed concept?"
+        },
+        {
+          "id": "qKit-d63f3ba8",
+          "text": "What unique advantage is offered?"
+        },
+        {
+          "id": "qKit-d63f3f94",
+          "text": "What is the project's general approach, animating insight and/or unique methodology?"
+        },
+        {
+          "id": "qKit-d63f3b44",
+          "text": "What is the higher order objective?"
+        },
+        {
+          "id": "qKit-d63f37b7",
+          "text": "What are the broader implications of the work or idea?"
+        },
+        {
+          "id": "qKit-d63f35f7",
+          "text": "Who will benefit? Who benefits from the work or the findings, who was or is this work useful to?"
+        },
+        {
+          "id": "qKit-d63f328b",
+          "text": "What are the implications of the research question, gap, or problem going unaddressed?"
+        },
+        {
+          "id": "qKit-d63f3222",
+          "text": "Are there primary or secondary beneficiaries of the work a reader might not initially expect? If so, who?"
+        },
+        {
+          "id": "qKit-d63f348c",
+          "text": "How do the results contribute to advancing the field or addressing real-world challenges?"
+        },
+        {
+          "id": "qKit-d63f3f42",
+          "text": "How does this work make necessary and meaningful contributions to advance understanding or capabilities in relevant research domains?"
+        },
+        {
+          "id": "qKit-d63f361b",
+          "text": "What is the link between the relevant principles, policies, and activities and the intended outcomes, changes, and objectives? How is change achieved?"
+        },
+        {
+          "id": "qKit-d63f38e5",
+          "text": "Are there past examples, case studies, or data that support the case for potential impacts of this work or support expectations regarding approach?"
+        },
+        {
+          "id": "qKit-d63f39e9",
+          "text": "Are there any benefits that result from the performance of the work, regardless of outcome? For example, are their students or early-career researchers that benefit from involvement or opportunities for researchers to network or advance their career?"
+        },
+        {
+          "id": "qKit-d63f34c2",
+          "text": "Does this work have the potential to have any effects on public understanding of or narrative within a field? For example, would this work generate press attention or result in artifacts that might be accessible to a general audience?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

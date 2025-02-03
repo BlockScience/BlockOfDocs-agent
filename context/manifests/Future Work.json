@@ -1,0 +1,64 @@
+{
+  "block_id": "7d2585c4fdea",
+  "block_title": "Future Work",
+  "description": "The \"Future Work\" Block provides a focused examination of a research program's next steps and implementation roadmap, enabling reviewers to evaluate its trajectory and readiness for continued development. This Block requires researchers and project teams to articulate their planned activities, resource requirements, and potential obstacles in a structured format consisting of narrative paragraphs followed by an actionable list. By addressing specific questions about upcoming milestones, dependencies, and anticipated challenges, the Block serves as a forward-looking assessment framework, helping to identify projects that have a clear and viable path forward. The dual format of prose and bullet points challenges producers to both tell a compelling story about their project's future and break that vision down into concrete, achievable steps with consideration for potential collaborators. This systematic examination helps maintain momentum and accountability, making the proposed next phases transparent to reviewers while forcing thorough consideration of what barriers must be overcome and what capabilities must be developed for successful continuation of the research program.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-7d2f365c",
+          "text": "What is the purpose, mission, or primary aim of the project?"
+        },
+        {
+          "id": "qKit-7d2f37b7",
+          "text": "What are the broader implications of the work or idea?"
+        },
+        {
+          "id": "qKit-7d2f379a",
+          "text": "What work has already been completed for the project?"
+        },
+        {
+          "id": "qKit-7d2f36ca",
+          "text": "What would/should come or is coming next? If the work was successful, hypothesis was correct, or an event went as expected, what would come after?"
+        },
+        {
+          "id": "qKit-7d2f3531",
+          "text": "What points of leverage will be used to achieve intended outcomes?"
+        },
+        {
+          "id": "qKit-7d2f3bf3",
+          "text": "What are the next steps for the project?"
+        },
+        {
+          "id": "qKit-7d2f361b",
+          "text": "What are the startup requirements? What are the necessary prerequisites to this approach? Are there funding or resource requirements? If there are funding or support requirements, who would be the potential funders?"
+        },
+        {
+          "id": "qKit-7d2f3ea9",
+          "text": "Who are the supporters that will contribute or did contribute to the work or program?"
+        },
+        {
+          "id": "qKit-7d2f33ef",
+          "text": "Are there any awards/certificates/grants already associated with the project?"
+        },
+        {
+          "id": "qKit-7d2f39be",
+          "text": "For each potential approach or for the current approach: What tools, techniques, or expertise, alone or in combination, would be required or provide opportunities?"
+        },
+        {
+          "id": "qKit-7d2f3ae9",
+          "text": "Is there feedback requested? If so, what categories of organization or person(s) are especially encouraged to provide it?"
+        },
+        {
+          "id": "qKit-7d2f36ae",
+          "text": "Are there additional partners or supporters (or categories thereof) that should be brought in to the work?"
+        },
+        {
+          "id": "qKit-7d2f3379",
+          "text": "Is there a call for collaborators? If so, what categories of organization or person(s) are especially encouraged to reach out? What requirements are there?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

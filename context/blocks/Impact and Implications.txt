@@ -1,0 +1,117 @@
+<BlockRequest>
+<BlockTitle>Impact and Implications</BlockTitle>
+<BlockID>d636852815fe</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Impact and Implications” is defined as follows:
+<Description>
+The "Impact and Implications" Block provides a thorough analysis of the potential effects and significance of a research (or similar) initiative, enabling stakeholders to comprehensively understand the project's anticipated influence across multiple domains and the principal investigators to ensure clarity in program design. It is a specialized block focused on examining both direct outcomes and indirect consequences of the proposed work, considering immediate results as well as long-term ramifications and first-, second-, and third-order beneficiaries. This Block requires investigators to carefully evaluate their project's potential impacts through a detailed assessment that demonstrates deep consideration of various influence pathways. By examining primary effects alongside secondary and tertiary implications, such as workforce development, technological advancement, or societal benefits, the resulting document serves as a critical impact assessment framework, ensuring that the team has thoroughly considered the full scope of their work's influence. Authors must balance breadth with specificity, ensuring both immediate and far-reaching implications are adequately explored while maintaining analytical rigor. This structured format helps articulate the full value proposition of the work, making the potential benefits clear to stakeholders while ensuring careful consideration of both intended and unintended consequences of the proposed activities.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions and Block Requests in the cKit (Context Kit) in the way you would like them addressed. The cKit provides the necessary context to produce the Document.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<ProbeBlockRequest><sequenceID>qKit-d63f31fd</sequenceID>
+<kit>qKit</kit>
+<question>What problem, research question, opportunity, gap, or challenge does this project address? What does it intend to provide or offer? </question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f386b</sequenceID>
+<kit>qKit</kit>
+<question>What perspective, expertise, or set of capabilities uniquely enables this proposed concept?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f3ba8</sequenceID>
+<kit>qKit</kit>
+<question>What unique advantage is offered?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f3f94</sequenceID>
+<kit>qKit</kit>
+<question>What is the project's general approach, animating insight and/or unique methodology?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f3b44</sequenceID>
+<kit>qKit</kit>
+<question>What is the higher order objective?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>cKit-d6340222</sequenceID>
+<kit>cKit</kit>
+<question>Are there primary or secondary beneficiaries of the work a reader might not initially expect? If so, who?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f37b7</sequenceID>
+<kit>qKit</kit>
+<question>What are the broader implications of the work or idea?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f35f7</sequenceID>
+<kit>qKit</kit>
+<question>Who will benefit? Who benefits from the work or the findings, who was or is this work useful to?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f328b</sequenceID>
+<kit>qKit</kit>
+<question>What are the implications of the research question, gap, or problem going unaddressed?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f3222</sequenceID>
+<kit>qKit</kit>
+<question>Are there primary or secondary beneficiaries of the work a reader might not initially expect? If so, who?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f348c</sequenceID>
+<kit>qKit</kit>
+<question>How do the results contribute to advancing the field or addressing real-world challenges? </question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f3f42</sequenceID>
+<kit>qKit</kit>
+<question>How does this work make necessary and meaningful contributions to advance understanding or capabilities in relevant research domains?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f361b</sequenceID>
+<kit>qKit</kit>
+<question>What is the link between the relevant principles, policies, and activities and the intended outcomes, changes, and objectives? How is change achieved?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f38e5</sequenceID>
+<kit>qKit</kit>
+<question>Are there past examples, case studies, or data that support the case for potential impacts of this work or support expectations regarding approach?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f39e9</sequenceID>
+<kit>qKit</kit>
+<question>Are there any benefits that result from the performance of the work, regardless of outcome? For example, are their students or early-career researchers that benefit from involvement or opportunities for researchers to network or advance their career?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-d63f34c2</sequenceID>
+<kit>qKit</kit>
+<question>Does this work have the potential to have any effects on public understanding of or narrative within a field? For example, would this work generate press attention or result in artifacts that might be accessible to a general audience?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+is informed by, consistent with, and does not contradict the information in the cKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>770c7c79610c</styleRequirementID>
+<styleRequirement>500 Words or Less</styleRequirement>
+<styleRequirementID>b9eccf7af267</styleRequirementID>
+<styleRequirement>Single Paragraph</styleRequirement>
+<styleRequirementID>3d28cb27a452</styleRequirementID>
+<styleRequirement>Document should use paragraph-format, only using bullet point lists sparingly and for special situations.</styleRequirement>
+<styleRequirementID>5781e7f9fe68</styleRequirementID>
+<styleRequirement>Narrative Text: The text should make a compelling case while maintaining a professional tone</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

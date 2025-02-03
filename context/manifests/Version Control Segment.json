@@ -1,0 +1,28 @@
+{
+  "block_id": "abeeadd02269",
+  "block_title": "Version Control Segment",
+  "description": "The Version Control Segment Block provides standardized version control for frequently updated documents by tracking author information, version numbers, and change descriptions. This Block serves as a simple yet essential component for maintaining document history and communicating updates to consumers, whether they are internal engineers or external users. Producers of this Block, typically authors of regularly updated documentation, will find it straightforward to implement with minimal friction, requiring only basic inputs like their name/pseudonym, the current version number, and a brief description of recent changes. The Block's unique elements focus on version tracking and change documentation, distinguishing it from a basic Author Block through its additional versioning features. It commonly appears as a subcomponent in various document types, particularly in Runbook Procedure - Standard Entries. Producers should expect a virtually frictionless experience when implementing this Block, with the only consideration being the appropriate author identification format based on the document's audience. The entire process of adding this Block to a document should take no more than a few minutes, making it an efficient tool for maintaining document version history.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-abef34bb",
+          "text": "Who was the last author to update this document?"
+        },
+        {
+          "id": "qKit-abef3886",
+          "text": "In a few words, what were the significant updates made to this document?"
+        },
+        {
+          "id": "qKit-abef3580",
+          "text": "When was this document last updated? Provide the date."
+        },
+        {
+          "id": "qKit-abef3b8d",
+          "text": "What is the current version number for this document? (Be sure to update version following style requirements)"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

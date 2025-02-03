@@ -1,0 +1,68 @@
+{
+  "block_id": "77dc245269d5",
+  "block_title": "Approach and Methodology",
+  "description": "The \"Approach and Methodology\" Block provides a detailed examination of a research program's technical strategy and implementation plan, enabling reviewers to thoroughly evaluate its feasibility and risk profile. This Block requires researchers and project teams to articulate their methods, technical requirements, and risk mitigation approaches in a structured format that demonstrates careful consideration of execution challenges. By addressing specific questions about technical dependencies, resource needs, potential failure modes, and contingency plans, the Block serves as a comprehensive assessment framework, helping to surface projects that may require additional planning or risk management. The strict technical focus challenges producers to think critically about their approach's practicality and limitations, while ensuring all key implementation concerns are addressed. This systematic examination helps maintain rigor and accountability, making the proposed methodology transparent to reviewers while forcing thorough consideration of what capabilities and safeguards are necessary for successful execution of the research program.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-77df3f94",
+          "text": "What is the project's general approach, animating insight and/or unique methodology?"
+        },
+        {
+          "id": "qKit-77df3d0d",
+          "text": "What are the relevant assumptions or claims underlying the approach, idea, or recommendations?"
+        },
+        {
+          "id": "qKit-77df387f",
+          "text": "What alternative solutions already exist? Why are they inadequate? What changed?"
+        },
+        {
+          "id": "qKit-77df386b",
+          "text": "What perspective, expertise, or set of capabilities uniquely enables this proposed concept?"
+        },
+        {
+          "id": "qKit-77df3a67",
+          "text": "Are there novel technical developments required to successfully implement the proposed approach? If so, what are they?"
+        },
+        {
+          "id": "qKit-77df3ba8",
+          "text": "What unique advantage is offered?"
+        },
+        {
+          "id": "qKit-77df3255",
+          "text": "How does this approach differ from similar ones or from its use in other domains?"
+        },
+        {
+          "id": "qKit-77df3813",
+          "text": "Are there potentially confounding variables, sources of bias, or similar challenges that may impact results or assessment? If so, how will they be controlled or managed?"
+        },
+        {
+          "id": "qKit-77df37b1",
+          "text": "What quality control measures, validation steps, or contingencies are a part of the approach?"
+        },
+        {
+          "id": "qKit-77df386e",
+          "text": "What are the risks? What challenges have to be overcome?"
+        },
+        {
+          "id": "qKit-77df3809",
+          "text": "Why is the project likely to succeed in spite of the current risks and challenges?"
+        },
+        {
+          "id": "qKit-77df38e5",
+          "text": "Are there past examples, case studies, or data that support the case for potential impacts of this work or support expectations regarding approach?"
+        },
+        {
+          "id": "qKit-77df37f8",
+          "text": "What metrics, milestones, or outcomes would indicate success? How will the program be evaluated? How will results be validated?"
+        },
+        {
+          "id": "qKit-77df37ef",
+          "text": "What is the timeline of the work? What are/were the key milestones and deliverables?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

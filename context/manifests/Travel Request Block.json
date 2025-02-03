@@ -1,0 +1,68 @@
+{
+  "block_id": "e3cb84f77328",
+  "block_title": "Travel Request Block",
+  "description": "The \"Travel Request\" Block streamlines the process of submitting and reviewing business travel plans by providing a standardized template for employees. Using this Block, staff members document their intended travel through a brief overview statement and supporting details in a Q&A format. The template prompts for essential information including travel dates, locations, estimated expenses, and business purpose - giving operations teams the key details needed to efficiently evaluate and process requests. This structured approach combines a high-level summary with specific logistical requirements, ensuring that employees communicate their travel needs clearly while meeting all documentation requirements. The Block's organized format facilitates quick reviews and approvals while confirming that travel requests align with organizational policies, budgets, and compliance standards. By standardizing how travel is requested and documented, the Block helps operations teams manage business travel effectively across the organization.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-e3cf3d27",
+          "text": "What is the name of the event or travel initiative?"
+        },
+        {
+          "id": "qKit-e3cf332a",
+          "text": "How would you describe or characterize the event in 1-3 sentences? What kind of event is this? What kinds of organizations or professionals will attend? What is the subject matter or focus?"
+        },
+        {
+          "id": "qKit-e3cf349f",
+          "text": "What is the timeline? What are the key dates? How many days will the team be away?"
+        },
+        {
+          "id": "qKit-e3cf3df6",
+          "text": "Who is involved? Who is traveling?"
+        },
+        {
+          "id": "qKit-e3cf3ff0",
+          "text": "How much will it cost? In the absence of exact prices, what is a rough ballpark-estimate of lowest and highest expectations? Why will it cost this much? (e.g., is it an abnormally low or high cost?)"
+        },
+        {
+          "id": "qKit-e3cf3551",
+          "text": "What are the involved locations? Where are people traveling from and where are they traveling to?"
+        },
+        {
+          "id": "qKit-e3cf3cdc",
+          "text": "In clear terms, what is the benefit of the travel to the company? Why is this worth it relative to the cost?"
+        },
+        {
+          "id": "qKit-e3cf33b9",
+          "text": "In clear terms, what is the benefit of the travel to the individuals involved? Why is this worth it relative to the cost?"
+        },
+        {
+          "id": "qKit-e3cf3acd",
+          "text": "What do you need help with? What assistance is needed?"
+        },
+        {
+          "id": "qKit-e3cf3a26",
+          "text": "How urgent is this to plan? What is the turn-around on booking and solidifying plans? What are the relevant deadlines?"
+        },
+        {
+          "id": "qKit-e3cf3a67",
+          "text": "Are there links to the event page, registration or submission portal, or similar materials? Where are materials and files for travel planning held?"
+        },
+        {
+          "id": "qKit-e3cf392d",
+          "text": "Are there alternatives to attendance? Are there virtual options? Do we know others who are attending who might be able to participate on our behalf?"
+        },
+        {
+          "id": "qKit-e3cf30fb",
+          "text": "What is the impact of not attending? What is the cost of not participating in the event?"
+        },
+        {
+          "id": "qKit-e3cf3fbe",
+          "text": "What points of fact, highlights, or features are relevant for the reader to know?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

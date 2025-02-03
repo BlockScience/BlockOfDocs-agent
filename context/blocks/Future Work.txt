@@ -1,0 +1,106 @@
+<BlockRequest>
+<BlockTitle>Future Work</BlockTitle>
+<BlockID>7d2585c4fdea</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Future Work” is defined as follows:
+<Description>
+The "Future Work" Block provides a focused examination of a research program's next steps and implementation roadmap, enabling reviewers to evaluate its trajectory and readiness for continued development. This Block requires researchers and project teams to articulate their planned activities, resource requirements, and potential obstacles in a structured format consisting of narrative paragraphs followed by an actionable list. By addressing specific questions about upcoming milestones, dependencies, and anticipated challenges, the Block serves as a forward-looking assessment framework, helping to identify projects that have a clear and viable path forward. The dual format of prose and bullet points challenges producers to both tell a compelling story about their project's future and break that vision down into concrete, achievable steps with consideration for potential collaborators. This systematic examination helps maintain momentum and accountability, making the proposed next phases transparent to reviewers while forcing thorough consideration of what barriers must be overcome and what capabilities must be developed for successful continuation of the research program.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<ProbeBlockRequest><sequenceID>qKit-7d2f365c</sequenceID><kit>qKit</kit>
+<question>What is the purpose, mission, or primary aim of the project?</question>
+<StyleRequirements><styleRequirementID>470b4e0d2666</styleRequirementID>
+<styleRequirement>A defined mission or purpose should be achievable and clearly separable from the approach.</styleRequirement>
+</StyleRequirements>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f37b7</sequenceID>
+<kit>qKit</kit>
+<question>What are the broader implications of the work or idea?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f379a</sequenceID>
+<kit>qKit</kit>
+<question>What work has already been completed for the project? </question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f36ca</sequenceID>
+<kit>qKit</kit>
+<question>What would/should come or is coming next? If the work was successful, hypothesis was correct, or an event went as expected, what would come after?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f3531</sequenceID>
+<kit>qKit</kit>
+<question>What points of leverage will be used to achieve intended outcomes?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f3bf3</sequenceID>
+<kit>qKit</kit>
+<question>What are the next steps for the project?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f361b</sequenceID>
+<kit>qKit</kit>
+<question>What are the startup requirements? What are the necessary prerequisites to this approach? Are there funding or resource requirements? If there are funding or support requirements, who would be the potential funders?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f3ea9</sequenceID>
+<kit>qKit</kit>
+<question>Who are the supporters that will contribute or did contribute to the work or program?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f33ef</sequenceID>
+<kit>qKit</kit>
+<question>Are there any awards/certificates/grants already associated with the project?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f39be</sequenceID>
+<kit>qKit</kit>
+<question>For each potential approach or for the current approach: What tools, techniques, or expertise, alone or in combination, would be required or provide opportunities?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f3ae9</sequenceID>
+<kit>qKit</kit>
+<question>Is there feedback requested? If so, what categories of organization or person(s) are especially encouraged to provide it?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f36ae</sequenceID>
+<kit>qKit</kit>
+<question>Are there additional partners or supporters (or categories thereof) that should be brought in to the work?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-7d2f3379</sequenceID>
+<kit>qKit</kit>
+<question>Is there a call for collaborators? If so, what categories of organization or person(s) are especially encouraged to reach out? What requirements are there?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>7f1a74ee638f</styleRequirementID>
+<styleRequirement>2-Tab Limit on Bullet Points</styleRequirement>
+<styleRequirementID>74eaa9cfa7d3</styleRequirementID>
+<styleRequirement>This document should be composed of 1 to 3 paragraphs followed by a Bullet Point List of 3 to 7 Next Steps</styleRequirement>
+<styleRequirementID>0ca19028fea0</styleRequirementID>
+<styleRequirement>Academic and Professional Tone</styleRequirement>
+<styleRequirementID>5781e7f9fe68</styleRequirementID>
+<styleRequirement>Narrative Text: The text should make a compelling case while maintaining a professional tone</styleRequirement>
+<styleRequirementID>d341a5ae5098</styleRequirementID>
+<styleRequirement>First sentence should provide a clear, bottom-line-up-front statement</styleRequirement>
+<styleRequirementID>5bbcebd0aae8</styleRequirementID>
+<styleRequirement>Each Bullet Point in the bullet point list should contain a Header statement (i.e., a bolded title with a period), followed by a short paragraph describing necessary context and details.</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>
