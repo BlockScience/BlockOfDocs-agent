@@ -1,0 +1,65 @@
+<BlockRequest>
+<BlockTitle>Summary - Retrospective</BlockTitle>
+<BlockID>862ed6510b04</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Summary - Retrospective” is defined as follows:
+<Description>
+The “Summary - Retrospective” Block provides a clear and concise overview of completed initiatives, enabling stakeholders to evaluate past projects' outcomes, methodologies, and lessons learned. This Block requires project leads or subject matter experts to synthesize their initiative's objectives, approaches, and results into a focused narrative that reflects on what was performed and achieved. By addressing key questions about the actions taken, the research questions or problems addressed, the objectives or missions, the approaches used, and the outcomes achieved, the Block ensures a comprehensive review of the project’s lifecycle. Additionally, it prompts authors to articulate the significance of the initiative, answering why the reader should care about the project’s results. With a strict 200-word limit, producers are challenged to communicate their project’s essence efficiently, ensuring that all critical aspects are covered succinctly. This constraint promotes clarity and precision, making the document accessible and valuable for stakeholders seeking to understand the effectiveness and impact of past initiatives. By maintaining a structured and focused format, the “Summary - Retrospective” Block serves as an essential tool for reflection, accountability, and continuous improvement within organizational processes.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions and Block Requests in the cKit (Context Kit) in the way you would like them addressed. The cKit provides the necessary context to produce the Document.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<ProbeBlockRequest><sequenceID>qKit-862f30d2</sequenceID>
+<kit>qKit</kit>
+<question>What was performed? What was done?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-862f301b</sequenceID>
+<kit>qKit</kit>
+<question>What is the research question, opportunity, gap, or problem being addressed? Why does this work or documentation exist - what is it a response to?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-862f3d01</sequenceID><kit>qKit</kit>
+<question>What was/is the objective, goal, or mission?</question>
+<StyleRequirements><styleRequirementID>470b4e0d2666</styleRequirementID>
+<styleRequirement>A defined mission or purpose should be achievable and clearly separable from the approach.</styleRequirement>
+</StyleRequirements>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-862f3e5e</sequenceID>
+<kit>qKit</kit>
+<question>What was/is the approach being considered or used?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-862f3109</sequenceID>
+<kit>qKit</kit>
+<question>What results/outcomes were expected and/or achieved?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>cKit-8624075f</sequenceID>
+<kit>cKit</kit>
+<question>Why should the reader care?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+is informed by, consistent with, and does not contradict the information in the cKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>dbe0b3c8e532</styleRequirementID>
+<styleRequirement>Word Count Maximum: 200</styleRequirement>
+<styleRequirementID>ef9732a08bdf</styleRequirementID>
+<styleRequirement>Plain Text Only</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

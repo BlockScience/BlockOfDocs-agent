@@ -1,0 +1,90 @@
+<BlockRequest>
+<BlockTitle>Summary - Prospective</BlockTitle>
+<BlockID>95ebbfcbaebe</BlockID>
+
+The Block “Summary - Prospective” is defined as follows:
+
+<Description>
+The “Summary - Prospective” Block provides a concise, high-level summary of a proposed initiative, enabling stakeholders to quickly grasp its essential elements and assess its viability. This Block requires subject matter experts or project leads to distill their initiative's core purpose, approach, and implications into a focused narrative that demonstrates the project's readiness for consideration. By addressing fundamental questions about the initiative's goals, methods, and expected outcomes, the Block serves as a minimum-viable checklist for "flight" safety, helping to identify projects that may need further development before proceeding. The strict 200-word limit challenges producers to communicate their project's essence efficiently, while ensuring all critical aspects are addressed. This constraint helps maintain clarity and focus, making the document more accessible to its audience while forcing careful consideration of what information is truly essential to understanding the initiative.
+</Description>
+
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions or Block Requests in the aKit (Augmentation Kit) where appropriate or necessary, especially if they are already available. the aKit informs and augments the resulting Document.
+Address questions and Block Requests in the cKit (Context Kit) in the way you would like them addressed. The cKit provides the necessary context to produce the Document.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+
+<ProbeBlockRequest><sequenceID>qKit-95ef301b</sequenceID>
+<kit>qKit</kit>
+<question>What is the research question, opportunity, gap, or problem being addressed? Why does this work or documentation exist - what is it a response to?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+<ProbeBlockRequest><sequenceID>qKit-95ef3d01</sequenceID><kit>qKit</kit>
+<question>What was/is the objective, goal, or mission?</question>
+<StyleRequirements><styleRequirementID>470b4e0d2666</styleRequirementID>
+<styleRequirement>A defined mission or purpose should be achievable and clearly separable from the approach.</styleRequirement>
+</StyleRequirements>
+<answer></answer>
+</ProbeBlockRequest>
+
+<ProbeBlockRequest><sequenceID>qKit-95ef3e5e</sequenceID>
+<kit>qKit</kit>
+<question>What was/is the approach being considered or used?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+<ProbeBlockRequest><sequenceID>aKit-95e7555d</sequenceID>
+<kit>aKit</kit>
+<question>What is unique about this work, idea, or team?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+<ProbeBlockRequest><sequenceID>qKit-95ef37b7</sequenceID>
+<kit>qKit</kit>
+<question>What are the broader implications of the work or idea?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+<ProbeBlockRequest><sequenceID>cKit-95e4075f</sequenceID>
+<kit>cKit</kit>
+<question>Why should the reader care?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+<ProbeBlockRequest><sequenceID>qKit-95ef373d</sequenceID>
+<kit>qKit</kit>
+<question>What work will be performed? What will be done? What should be expected to happen next?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+is informed by, consistent with, and does not contradict the information in the aKit.
+is informed by, consistent with, and does not contradict the information in the cKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>dbe0b3c8e532</styleRequirementID>
+<styleRequirement>Word Count Maximum: 200</styleRequirement>
+<styleRequirementID>b9eccf7af267</styleRequirementID>
+<styleRequirement>Single Paragraph</styleRequirement>
+<styleRequirementID>ef9732a08bdf</styleRequirementID>
+<styleRequirement>Plain Text Only</styleRequirement>
+<styleRequirementID>51fd441b388a</styleRequirementID>
+<styleRequirement>Laconic Language</styleRequirement>
+<styleRequirementContext>Language should be concise, direct, and stripped of any fluff, rhetoric, and technical jargon wherever possible. Acronyms should also be limited unless they are standard or explained.</styleRequirementContext><styleRequirementID>d341a5ae5098</styleRequirementID>
+<styleRequirement>First sentence should provide a clear, bottom-line-up-front statement</styleRequirement>
+<styleRequirementID>59b97f54fe67</styleRequirementID>
+<styleRequirement>Should be written in a tense and tone appropriate for prospective work, with reasonable consideration for the potential for failure or falling short of expectations</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

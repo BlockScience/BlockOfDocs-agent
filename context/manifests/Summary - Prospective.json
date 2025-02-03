@@ -1,0 +1,32 @@
+{
+  "block_id": "95ebbfcbaebe",
+  "block_title": "Summary - Prospective",
+  "description": "The \u201cSummary - Prospective\u201d Block provides a concise, high-level summary of a proposed initiative, enabling stakeholders to quickly grasp its essential elements and assess its viability. This Block requires subject matter experts or project leads to distill their initiative's core purpose, approach, and implications into a focused narrative that demonstrates the project's readiness for consideration. By addressing fundamental questions about the initiative's goals, methods, and expected outcomes, the Block serves as a minimum-viable checklist for \"flight\" safety, helping to identify projects that may need further development before proceeding. The strict 200-word limit challenges producers to communicate their project's essence efficiently, while ensuring all critical aspects are addressed. This constraint helps maintain clarity and focus, making the document more accessible to its audience while forcing careful consideration of what information is truly essential to understanding the initiative.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-95ef301b",
+          "text": "What is the research question, opportunity, gap, or problem being addressed? Why does this work or documentation exist - what is it a response to?"
+        },
+        {
+          "id": "qKit-95ef3d01",
+          "text": "What was/is the objective, goal, or mission?"
+        },
+        {
+          "id": "qKit-95ef3e5e",
+          "text": "What was/is the approach being considered or used?"
+        },
+        {
+          "id": "qKit-95ef37b7",
+          "text": "What are the broader implications of the work or idea?"
+        },
+        {
+          "id": "qKit-95ef373d",
+          "text": "What work will be performed? What will be done? What should be expected to happen next?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

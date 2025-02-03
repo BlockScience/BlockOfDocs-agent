@@ -1,0 +1,57 @@
+<BlockRequest>
+<BlockTitle>Summary - General</BlockTitle>
+<BlockID>f28459244847</BlockID>
+This is a request to produce a Document using the “Block” defined below. A Block is a blueprint which guides the preparation, information collection, and production processes, and specifies the information and style requirements for a particular type or pattern of Document. This Block is a “Composition Block”, which will request a combination of answers to questions and requests for sub-Documents (Block Requests) that will serve as the context and components necessary to synthesize a new Document. Provided here is a definition of this Block and the Document it specifies, and step by step instructions to produce the Document. 
+The Block “Summary - General” is defined as follows:
+<Description>
+A Summary - General Block is used to document and communicate the broader implications and potential impacts of a project or approach. This Block serves as a crucial tool for project leads to articulate their project's significance, approach, and expected outcomes in a clear, concise format. The Block is designed to be straightforward to produce, requiring only the project lead's inherent knowledge and understanding of their own well-conceived project, without the need for additional research or external consultation. While the information gathering process is relatively simple, the challenge lies in effectively synthesizing complex project implications into a single, coherent paragraph. The Block helps ensure that project leads have thoroughly considered their project's main ideas and potential impacts, making it particularly valuable in the early stages of project development. This documentation can then serve as a foundation for various purposes, such as project proposals or team communications.
+</Description>
+*Follow the step-by-step instructions below to produce the Block:*
+1. Assemble the Block’s “Ontology Kit” (oKit) here by adding terms that must have correct usage throughout information collection and within the final document: If new terms appear as you complete the process, come back to add them.
+<ontology>
+<namespace></namespace>
+<definition></definition>
+</ontology><ontology>
+
+2. Familiarize yourself with the Block’s “Kit” definitions below.
+Address questions and Block Requests in the qKit (Query Kit) in the way you would like the Consumer to address them. The qKit defines the information requirements of the resulting Document - what questions and Block Requests should a Consumer be able to address using the resulting Document?
+3. Address each Question and/or Block Request in the Block’s Kit here:
+<ProbeBlockRequest><sequenceID>qKit-f28f301b</sequenceID>
+<kit>qKit</kit>
+<question>What is the research question, opportunity, gap, or problem being addressed? Why does this work or documentation exist - what is it a response to?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-f28f3d01</sequenceID><kit>qKit</kit>
+<question>What was/is the objective, goal, or mission?</question>
+<StyleRequirements><styleRequirementID>470b4e0d2666</styleRequirementID>
+<styleRequirement>A defined mission or purpose should be achievable and clearly separable from the approach.</styleRequirement>
+</StyleRequirements>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-f28f3e5e</sequenceID>
+<kit>qKit</kit>
+<question>What was/is the approach being considered or used?</question>
+<answer></answer>
+</ProbeBlockRequest>
+<ProbeBlockRequest><sequenceID>qKit-f28f37b7</sequenceID>
+<kit>qKit</kit>
+<question>What are the broader implications of the work or idea?</question>
+<answer></answer>
+</ProbeBlockRequest>
+
+4. Now, draft a Document, according to the following general procedure which:
+correctly implements the ontology defined in the oKit.
+would allow a reader or consumer of the document to address all questions and block requests in the qKit
+Meets all of the style requirements listed below.
+<StyleRequirements>
+<styleRequirementID>dbe0b3c8e532</styleRequirementID>
+<styleRequirement>Word Count Maximum: 200</styleRequirement>
+<styleRequirementID>b9eccf7af267</styleRequirementID>
+<styleRequirement>Single Paragraph</styleRequirement>
+<styleRequirementID>ef9732a08bdf</styleRequirementID>
+<styleRequirement>Plain Text Only</styleRequirement>
+<styleRequirementID>c810c00559e0</styleRequirementID>
+<styleRequirement>First sentence of the first paragraph should provide a clear, bottom-line-up-front statement</styleRequirement>
+</StyleRequirements>
+<document></document>
+</BlockRequest>

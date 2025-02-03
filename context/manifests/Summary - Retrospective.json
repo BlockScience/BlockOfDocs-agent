@@ -1,0 +1,32 @@
+{
+  "block_id": "862ed6510b04",
+  "block_title": "Summary - Retrospective",
+  "description": "The \u201cSummary - Retrospective\u201d Block provides a clear and concise overview of completed initiatives, enabling stakeholders to evaluate past projects' outcomes, methodologies, and lessons learned. This Block requires project leads or subject matter experts to synthesize their initiative's objectives, approaches, and results into a focused narrative that reflects on what was performed and achieved. By addressing key questions about the actions taken, the research questions or problems addressed, the objectives or missions, the approaches used, and the outcomes achieved, the Block ensures a comprehensive review of the project\u2019s lifecycle. Additionally, it prompts authors to articulate the significance of the initiative, answering why the reader should care about the project\u2019s results. With a strict 200-word limit, producers are challenged to communicate their project\u2019s essence efficiently, ensuring that all critical aspects are covered succinctly. This constraint promotes clarity and precision, making the document accessible and valuable for stakeholders seeking to understand the effectiveness and impact of past initiatives. By maintaining a structured and focused format, the \u201cSummary - Retrospective\u201d Block serves as an essential tool for reflection, accountability, and continuous improvement within organizational processes.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-862f30d2",
+          "text": "What was performed? What was done?"
+        },
+        {
+          "id": "qKit-862f301b",
+          "text": "What is the research question, opportunity, gap, or problem being addressed? Why does this work or documentation exist - what is it a response to?"
+        },
+        {
+          "id": "qKit-862f3d01",
+          "text": "What was/is the objective, goal, or mission?"
+        },
+        {
+          "id": "qKit-862f3e5e",
+          "text": "What was/is the approach being considered or used?"
+        },
+        {
+          "id": "qKit-862f3109",
+          "text": "What results/outcomes were expected and/or achieved?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}

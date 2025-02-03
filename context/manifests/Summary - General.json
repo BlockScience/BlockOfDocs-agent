@@ -1,0 +1,28 @@
+{
+  "block_id": "f28459244847",
+  "block_title": "Summary - General",
+  "description": "A Summary - General Block is used to document and communicate the broader implications and potential impacts of a project or approach. This Block serves as a crucial tool for project leads to articulate their project's significance, approach, and expected outcomes in a clear, concise format. The Block is designed to be straightforward to produce, requiring only the project lead's inherent knowledge and understanding of their own well-conceived project, without the need for additional research or external consultation. While the information gathering process is relatively simple, the challenge lies in effectively synthesizing complex project implications into a single, coherent paragraph. The Block helps ensure that project leads have thoroughly considered their project's main ideas and potential impacts, making it particularly valuable in the early stages of project development. This documentation can then serve as a foundation for various purposes, such as project proposals or team communications.",
+  "kits": {
+    "qKit": {
+      "questions": [
+        {
+          "id": "qKit-f28f301b",
+          "text": "What is the research question, opportunity, gap, or problem being addressed? Why does this work or documentation exist - what is it a response to?"
+        },
+        {
+          "id": "qKit-f28f3d01",
+          "text": "What was/is the objective, goal, or mission?"
+        },
+        {
+          "id": "qKit-f28f3e5e",
+          "text": "What was/is the approach being considered or used?"
+        },
+        {
+          "id": "qKit-f28f37b7",
+          "text": "What are the broader implications of the work or idea?"
+        }
+      ]
+    }
+  },
+  "related_blocks": []
+}
