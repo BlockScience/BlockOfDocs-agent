@@ -1,0 +1,105 @@
+{
+  "documents": {
+    "context/context.md": {
+      "hash": "a5713ca2c746eba8436052b5795d0c6f3b4e6d368c22b50421c3ff9a36ccb80f",
+      "last_processed": "2025-02-02T22:14:57.719073"
+    },
+    "context/manifests/Summary - General.json": {
+      "hash": "528c8898aa2ca8c1b74b94c3eef9c7f77b2ec11714f6c2a493f64e6f64167405",
+      "last_processed": "2025-02-02T22:14:57.719207"
+    },
+    "context/manifests/Future Work.json": {
+      "hash": "ba38d6f50a78d8f244f9ff563a545df775da91e6634141344cae10cbed397173",
+      "last_processed": "2025-02-02T22:14:57.719343"
+    },
+    "context/manifests/Research Proposal Narrative.json": {
+      "hash": "88bbcfab1c7e8a8a73c4e19c803c5f15ff6f49ec49e9edbed04b4bf15946cda6",
+      "last_processed": "2025-02-02T22:14:57.719541"
+    },
+    "context/manifests/Funding Opportunity Summary.json": {
+      "hash": "c3f327c75d7114188c224acad568ccb9cd1b90fdb5838f16f351378d7c301bc5",
+      "last_processed": "2025-02-02T22:14:57.719578"
+    },
+    "context/manifests/Summary - Retrospective.json": {
+      "hash": "fbbc41ac3093d76d122761f91a2882bf69954d396d7b0daa1bf9af334736ff79",
+      "last_processed": "2025-02-02T22:14:57.719707"
+    },
+    "context/manifests/BlockRequest.json": {
+      "hash": "e412221405a762d5c6b99dc2fd4747fdc0f3d812c125ac23e91291ff67e3a655",
+      "last_processed": "2025-02-02T22:14:57.719743"
+    },
+    "context/manifests/Version Control Segment.json": {
+      "hash": "4c316ed3634ecb48cbee8998e0121a73d5008cb719c12319ec98d0c55e25738b",
+      "last_processed": "2025-02-02T22:14:57.719870"
+    },
+    "context/manifests/Block Definition.json": {
+      "hash": "8c3fea2177986ec3b1f8d3ae60d157f7288e6771155df99387b7b4bdaa128e7d",
+      "last_processed": "2025-02-02T22:14:57.719907"
+    },
+    "context/manifests/Impact and Implications.json": {
+      "hash": "3aa91ad2e992085ff616bd59d540113bbf7e6d89261c6d67505466061af7d5ad",
+      "last_processed": "2025-02-02T22:14:57.719948"
+    },
+    "context/manifests/Summary - Prospective.json": {
+      "hash": "4d3b16e5af441e7bb28f794b52b81f6ee39863f3e25c984d0472a18b92e4daf1",
+      "last_processed": "2025-02-02T22:14:57.719984"
+    },
+    "context/manifests/Approach and Methodology.json": {
+      "hash": "9c1c7dfb597f9a8eb526a4b6e4ec3d31fbb6f027862f56d86ff06ebf6d8eb847",
+      "last_processed": "2025-02-02T22:14:57.720020"
+    },
+    "context/manifests/Travel Request Block.json": {
+      "hash": "d65918bed730dd55f9ffb84dab28e2e47c36eb5b280bdc90de32d6eaa14345ab",
+      "last_processed": "2025-02-02T22:14:57.720056"
+    },
+    "context/blocks/BlockRequest.txt": {
+      "hash": "93826410ffc88f5709523eda78d9b4f5d637dfea121b605e2c8a161e4e3f29df",
+      "last_processed": "2025-02-02T22:14:57.720100"
+    },
+    "context/blocks/Impact and Implications.txt": {
+      "hash": "7e15a8305159eba4c9fd817f4f9183a89a1747033aff86ff9284a219be20c853",
+      "last_processed": "2025-02-02T22:14:57.720252"
+    },
+    "context/blocks/Approach and Methodology.txt": {
+      "hash": "345ebeee9eb40cd6feb73a7636d28a8b98917f8efa424f3fc87868371f1d9c6a",
+      "last_processed": "2025-02-02T22:14:57.720291"
+    },
+    "context/blocks/Future Work.txt": {
+      "hash": "44ec06eec28490979a6a0fe24731479888bdfb24dcc0e0044f254963b65bb2d1",
+      "last_processed": "2025-02-02T22:14:57.720329"
+    },
+    "context/blocks/Summary - Retrospective.txt": {
+      "hash": "db4d4640350308c7e3571674115f39825854080d293dc8adcd6365ae52da54e5",
+      "last_processed": "2025-02-02T22:14:57.720371"
+    },
+    "context/blocks/Research Proposal Narrative.txt": {
+      "hash": "f8df03e92ef3229431fd874bfebcb2bdc4b4d0b6296701621b28c8aa168cbcb3",
+      "last_processed": "2025-02-02T22:14:57.720502"
+    },
+    "context/blocks/Travel Request Block.txt": {
+      "hash": "2311f93343c56e839031be826cb02203952887b5e950a2c45d6211e667308057",
+      "last_processed": "2025-02-02T22:14:57.720542"
+    },
+    "context/blocks/Funding Opportunity Summary.txt": {
+      "hash": "8a05385d6668e0ad4c0aa57455c962a2de149cdc085b74e6c42baa8fccaa10d9",
+      "last_processed": "2025-02-02T22:14:57.720583"
+    },
+    "context/blocks/Version Control Segment.txt": {
+      "hash": "99a90a2b672f52dfaf57eff866c509067d551dd177d91e60a8948c3628413dbe",
+      "last_processed": "2025-02-02T22:14:57.720618"
+    },
+    "context/blocks/Summary - Prospective.txt": {
+      "hash": "d1dc3e6b106aea4994bb7f71e4254086c88303b786c99adfb372be0312f08278",
+      "last_processed": "2025-02-02T22:14:57.720653"
+    },
+    "context/blocks/Block Definition.txt": {
+      "hash": "67f6beb5111f40d8a35bc1294a97af83603e0b5e14ef752b511ea047dffb2965",
+      "last_processed": "2025-02-02T22:14:57.720762"
+    },
+    "context/blocks/Summary - General.txt": {
+      "hash": "a9cbce6b17a49254343f8c1d3622ca0cb01b9680e510ca3d91574e60677dcf3a",
+      "last_processed": "2025-02-02T22:14:57.720797"
+    }
+  },
+  "last_update": "2025-02-02T22:24:46.763881"
+}

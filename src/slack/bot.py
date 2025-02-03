@@ -1,5 +1,6 @@
 import datetime
 import uuid
+import re
 from flask import Flask, request, jsonify
 from slack_bolt import App
 from slack_bolt.adapter.flask import SlackRequestHandler
@@ -54,7 +55,7 @@ class SlackBot:
                                 if elem.get('type') == 'text':
                                     query = elem.get('text')
                                     response = self._answer_question(query, message)
-                                    say(str(response))
+                                    say(self._clean_markdown(str(response)))
 
     def _handle_thread_reply(self, message):
         if message.get('parent_user_id') == self.app.client.auth_test().get("user_id"):
@@ -66,7 +67,7 @@ class SlackBot:
             response = self._answer_question(query, message, replies)
             self.app.client.chat_postMessage(
                 channel=message.get('channel'),
-                text=str(response),
+                text=self._clean_markdown(str(response)),
                 thread_ts=message.get('thread_ts')
             )
 
@@ -94,6 +95,33 @@ class SlackBot:
     def _answer_question(self, query, message, replies=None):
         who_is_asking = get_user_name(self.app.client, message.get('user'))[0]
         return self.query_engine.custom_query(query)
+
+    def _clean_markdown(self, text: str) -> str:
+        """Remove markdown formatting from text."""
+        # Remove code blocks (both ``` and single `)
+        text = re.sub(r'```[\s\S]*?```', '', text)
+        text = re.sub(r'`([^`]+)`', r'\1', text)
+        
+        # Remove bold/italic
+        text = re.sub(r'\*\*(.+?)\*\*', r'\1', text)
+        text = re.sub(r'__(.+?)__', r'\1', text)
+        text = re.sub(r'\*(.+?)\*', r'\1', text)
+        text = re.sub(r'_(.+?)_', r'\1', text)
+        
+        # Remove links [text](url)
+        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)
+        
+        # Remove headers
+        text = re.sub(r'^#{1,6}\s+', '', text, flags=re.MULTILINE)
+        
+        # Remove bullet points
+        text = re.sub(r'^\s*[-*+]\s+', '', text, flags=re.MULTILINE)
+        
+        # Clean up extra whitespace
+        text = re.sub(r'\n\s*\n', '\n\n', text)
+        text = text.strip()
+        
+        return text
 
     def run(self, port=3000):
         self.flask_app.run(port=port)

@@ -11,10 +11,10 @@ from config.settings import (
     OPENAI_MODEL, OPENAI_API_KEY,
     SLACK_BOT_TOKEN, SLACK_SIGNING_SECRET
 )
+from data.loader import DocumentLoader
 from core.extractor import GraphRAGExtractor
 from core.store import GraphRAGStore
 from core.query_engine import GraphRAGQueryEngine
-from data.loader import load_documents
 from prompts.templates import KG_TRIPLET_EXTRACT_TMPL, parse_fn
 from slack.bot import SlackBot
 
@@ -23,24 +23,58 @@ from slack.bot import SlackBot
 nest_asyncio.apply()
 
 async def init_knowledge_graph():
-    # Load documents
-    documents = load_documents("context")  # Make sure this points to your context directory
-    if not documents:
-        raise ValueError("No documents found. Please check the context directory.")
+    # Initialize document loader with tracking
+    doc_loader = DocumentLoader("context")
+    documents, changes = doc_loader.load_documents()
     
-    print(f"Loading {len(documents)} documents...")
+    # Log document changes
+    print("\nDocument Changes:")
+    print(f"New documents: {len(changes['new'])}")
+    print(f"Modified documents: {len(changes['modified'])}")
+    print(f"Unchanged documents: {len(changes['unchanged'])}")
+    
+    # Initialize storage and graph store
+    storage_context = StorageContext.from_defaults()
+    graph_store = GraphRAGStore(
+        username=NEO4J_USERNAME,
+        password=NEO4J_PASSWORD,
+        url=NEO4J_URL
+    )
+    
+    if not documents:
+        if changes['unchanged']:
+            print("\nNo new or modified documents to process.")
+            # Create an index with the existing graph store
+            index = PropertyGraphIndex.from_documents(
+                [],
+                storage_context=storage_context,
+                property_graph_store=graph_store
+            )
+            
+            llm = OpenAI(model=OPENAI_MODEL, api_key=OPENAI_API_KEY)
+            query_engine = GraphRAGQueryEngine(
+                graph_store=graph_store,
+                index=index,
+                llm=llm
+            )
+            
+            return index, query_engine
+        else:
+            raise ValueError("No documents found in the context directory.")
+    
+    print(f"\nProcessing {len(documents)} documents...")
     
     # Split documents into nodes
     splitter = SentenceSplitter(chunk_size=1024, chunk_overlap=20)
     nodes = splitter.get_nodes_from_documents(documents)
     print(f"Split into {len(nodes)} nodes for processing...")
     
-    # Initialize extractor with the parse function
+    # Initialize extractor
     llm = OpenAI(model=OPENAI_MODEL, api_key=OPENAI_API_KEY)
     kg_extractor = GraphRAGExtractor(
         llm=llm,
         extract_prompt=KG_TRIPLET_EXTRACT_TMPL,
-        parse_fn=parse_fn, 
+        parse_fn=parse_fn,
         max_paths_per_chunk=2,
         num_workers=2,
         batch_size=5,
@@ -51,29 +85,32 @@ async def init_knowledge_graph():
         # Process nodes
         nodes = await kg_extractor.acall(nodes, show_progress=True)
         
-        # Initialize storage and graph store
-        storage_context = StorageContext.from_defaults()
-        graph_store = GraphRAGStore(
-            username=NEO4J_USERNAME,
-            password=NEO4J_PASSWORD,
-            url=NEO4J_URL
-        )
-        
-        # Build index
-        index = PropertyGraphIndex(
-            nodes=nodes,
-            kg_extractors=[kg_extractor],
-            property_graph_store=graph_store,
-            show_progress=True,
-            storage_context=storage_context
-        )
+        # Build new index or update existing
+        if changes['unchanged']:
+            print("\nMerging new nodes with existing graph...")
+            # Add nodes to existing graph and create index
+            for node in nodes:
+                graph_store.add_node(node)
+            index = PropertyGraphIndex.from_documents(
+                [],
+                storage_context=storage_context,
+                property_graph_store=graph_store
+            )
+        else:
+            print("\nBuilding new graph index...")
+            index = PropertyGraphIndex(
+                nodes=nodes,
+                kg_extractors=[kg_extractor],
+                property_graph_store=graph_store,
+                show_progress=True,
+                storage_context=storage_context
+            )
         
         # Create query engine
         query_engine = GraphRAGQueryEngine(
             graph_store=graph_store,
-            llm=llm,
             index=index,
-            similarity_top_k=10
+            llm=llm
         )
         
         return index, query_engine
@@ -81,6 +118,7 @@ async def init_knowledge_graph():
     except Exception as e:
         print(f"Error during initialization: {str(e)}")
         raise
+
 
 def main():
     try:
